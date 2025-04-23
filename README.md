@@ -50,7 +50,7 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_database_nacl_rules"></a> [database\_nacl\_rules](#input\_database\_nacl\_rules) | ACL rule to database subnet | `list(map(string))` | n/a | yes |
 | <a name="input_databasesubnets"></a> [databasesubnets](#input\_databasesubnets) | Database subnet values | `list(string)` | n/a | yes |
-| <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | n/a | `map(string)` | <pre>{<br/>  "contato": "",<br/>  "dia": "",<br/>  "repo": ""<br/>}</pre> | no |
+| <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | Default tags to be set in resources | `map(string)` | n/a | yes |
 | <a name="input_privatesubnets"></a> [privatesubnets](#input\_privatesubnets) | Private subnet values | `list(string)` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | n/a | `string` | n/a | yes |
 | <a name="input_publicsubnets"></a> [publicsubnets](#input\_publicsubnets) | Public subnet values | `list(string)` | n/a | yes |
